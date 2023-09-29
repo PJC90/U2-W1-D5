@@ -85,7 +85,9 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+   border-bottom: 1px solid rgb(212, 211, 211);
+   margin: 40px 0;
+   padding-bottom: 40px;
 }
 .title{
     display: flex;
