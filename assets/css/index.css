@@ -80,20 +80,23 @@ header{
 
 /* MAIN */
 
-/* SECTION */
+/* SECTION .trending*/
 .trending{
     display: flex;
     flex-direction: column;
     align-items: center;
    border-bottom: 1px solid rgb(212, 211, 211);
-   margin: 40px 0;
-   padding-bottom: 40px;
+   font-size: 0.6em;
+   padding-top: 40px;
 }
 .title{
     display: flex;
     justify-content: flex-start;
     width: 60%;
     align-items: center;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 .trending-article{
     display: flex;
@@ -112,4 +115,33 @@ header{
 .size-trend div:nth-of-type(2) div img{
     width: 20px;
     height: 20px;
+    margin-right: 5px;
 }
+.size-trend div:nth-of-type(2) div:nth-of-type(2) h4{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 7px 0;
+}
+.size-trend div:nth-of-type(2) div:nth-of-type(3) p{
+    color: gray;
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+.size-trend div:nth-of-type(2) div:nth-of-type(3) img{
+    width: 15px;
+}
+.title img{
+    width: 23px;
+    margin-right: 10px;
+}
+.size-trend div:nth-of-type(1) h3{
+font-size: 2em;
+font-weight: bold;
+color: rgba(226, 223, 223, 0.599);
+padding-right: 12px;
+}
+
+/* SECTION  .article */
+
+
+/* SECTION  .more */
