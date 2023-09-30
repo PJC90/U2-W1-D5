@@ -58,8 +58,9 @@ header{
     flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
-   width: 600px;
-   margin-left: 260px;
+   width: 210%;
+   margin-left:350px;
+   
 }
 .container h1{
     font-size: 5.5em;
@@ -89,13 +90,13 @@ header{
     flex-direction: column;
     align-items: center;
    border-bottom: 1px solid rgb(212, 211, 211);
-   font-size: 0.6em;
+   font-size: 0.8em;
    padding-top: 40px;
 }
 .title{
     display: flex;
     justify-content: flex-start;
-    width: 60%;
+    width: 65%;
     align-items: center;
     padding: 0px;
     margin: 0;
@@ -106,10 +107,10 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
-    width: 60%;
+    width: 65%;
 }
 .size-trend{
-    width: 250px;
+    width: 350px;
     display: flex;
 }
 .size-trend div:nth-of-type(2) div{
@@ -134,8 +135,12 @@ header{
     width: 15px;
 }
 .title img{
-    width: 23px;
+    width: 30px;
     margin-right: 10px;
+}
+.title p{
+    font-size: 1.2em;
+    font-weight: bold;
 }
 .size-trend div:nth-of-type(1) h3{
 font-size: 2em;
@@ -149,10 +154,10 @@ padding-right: 12px;
     display: flex;
     margin-top: 50px;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
    margin-left: auto;
    margin-right: auto;
-    width: 75%;
+    width: 70%;
 }
 .article{
     width: 45%;
@@ -198,6 +203,7 @@ font-weight: bold;
 .img-article img{
     width: 100%;
 }
+
 .article-section{
     display: flex;
     margin: 40px 0;
