@@ -4,7 +4,13 @@ body,html{
     font-family: "Roboto";
 }
 
-
+nav.scrolled{
+    background-color: white;
+}
+nav.scrolled button{
+    background-color: green;
+    border: none;
+}
 nav{
     display: flex;
     justify-content: space-around;
